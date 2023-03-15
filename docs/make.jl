@@ -22,4 +22,5 @@ makedocs(;
 deploydocs(;
     repo="github.com/lcw/OurPkg.jl",
     devbranch="master",
+    push_preview=true,
 )
