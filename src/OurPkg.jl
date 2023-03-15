@@ -1,6 +1,6 @@
 module OurPkg
 
-export truthy
+export truthy, falsey
 
 """
     truthy()
@@ -14,5 +14,18 @@ true
 ```
 """
 truthy() = true
+
+"""
+    falsey()
+
+Always lies to you!
+
+# Examples
+```jldoctest
+julia> falsey()
+false
+```
+"""
+falsey() = false
 
 end
